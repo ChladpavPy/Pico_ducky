@@ -1,4 +1,4 @@
-REM you can turn off windows defender before downloading the file
+REM you can turn off windows defender with other commands before downloading the file and dont forget to switch to eng keyboard, also you can modify the script based on your preferences
 DELAY 1000
 GUI r
 DELAY 500
