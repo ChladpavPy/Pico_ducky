@@ -1,0 +1,11 @@
+REM you can turn off windows defender before downloading the file
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 2000
+REM 
+STRING $u="https://raw.githubusercontent.com/ChladpavPy/Pico_ducky/main/russian_virus.wav";$f="$env:temp/v.wav";Invoke-WebRequest -Uri $u -OutFile $f;(New-Object Media.SoundPlayer $f).PlaySync();
+ENTER
+
